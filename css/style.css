@@ -74,3 +74,196 @@ a:hover {
 }
 
 .social-img img {cursor: pointer;}
+
+hr {background: #666666; }
+
+
+/* Hero-block styles */
+.left-elem, .right-elem {
+    width: 40px;
+    height: 600px;
+    background: #E7F9FD;
+    margin-top: 60px;
+}
+
+.left-elem {
+    float: left;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.right-elem {
+    float: right;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.hero {
+    margin-top: 40px;
+    background: #E7FAFE;
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+}
+
+.hero .hero-text {
+    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hero .hero-text #main-tags-hero {
+    background: #fff;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04), 0px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.hero .hero-text #main-tags-hero::before {
+    content: '';
+    background: url('../img/icon-main-tags-hero.png') no-repeat center / contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero .hero-text h1 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.hero .hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: #666666;
+}
+
+.hero .hero-text .tags {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 124px;
+}
+
+.hero .hero-text .tags #tags-hero-1,
+.hero .hero-text .tags #tags-hero-2 {
+    color: #666666;
+    background: #DBEEF1;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+
+.hero .hero-text .tags #tags-hero-1::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icon/icon-timer-hero.png') no-repeat center / contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.hero .hero-text .tags #tags-hero-2::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icon/icon-fork-knife-hero.png') no-repeat center / contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.hero .author-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .author-and-button .author {
+    display: flex;
+    gap: 16px;
+}
+
+.hero .author-and-button .author .avatar img {
+    width: 50px;
+    height: 50px; 
+}
+
+.hero .author-and-button .author .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.hero .author-and-button .author .info #name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero .author-and-button .author .info #date {
+    color: #666666;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.hero .author-and-button .hero-button {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px 37px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+}
+
+.hero .author-and-button .hero-button::after {
+    content: '';
+    display: inline-block;
+    background: url('../img/icon/icon-button-hero.png') no-repeat center / contain;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 15px;
+    position: relative;
+    bottom: 1px;
+}
+
+.hero .author-and-button .hero-button:hover {
+    background: #1c1c1c;
+}
+
+.hero .hero-img {
+    max-height: 640px;
+}
+
+.hero .hero-img img {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.hero::before {
+    content: '';
+    display: inline-block;
+    background: url(../img/Badge.png) no-repeat center / contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 44%;
+    padding-top: 70px;
+}
