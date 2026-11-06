@@ -104,6 +104,7 @@ hr {background: #666666; }
     border-radius: 25px;
     display: flex;
     position: relative;
+    margin-bottom: 160px;
 }
 
 .hero .hero-text {
@@ -266,4 +267,94 @@ hr {background: #666666; }
     position: absolute;
     right: 44%;
     padding-top: 70px;
+}
+
+/* Categories Block Styles */
+.categories-block {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.categories-block .title-categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-block .title-categories h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.categories-block .title-categories button {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 21px 27px;
+    background: #E7FAFE;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.categories-block .title-categories button:hover {
+    background: #c8dbdf;
+}
+
+.categories-block .cards-categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.categories-block .cards-categories .card-item-cat {
+    flex-grow: 1;
+    border-radius: 30px;
+    max-width: 180px;
+    height: 152px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04); 
+}
+
+.categories-block .cards-categories .card-item-cat img {
+    display: block;
+    filter: drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.25)); 
+    position: relative;
+    bottom: 74px;
+}
+
+.categories-block .cards-categories .card-item-cat span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    position: relative;
+    bottom: 18px
+}
+
+.card-item-cat.background-1 {
+    background: linear-gradient(180deg, #F9FBF9 0%, #E8EFE8 100%);
+}
+
+.card-item-cat.background-2 {
+     background: linear-gradient(180deg, #F5FBF5 0%, #DFF2DF 100%);
+}
+
+.card-item-cat.background-3 {
+    background: linear-gradient(180deg, #FCF5F5 0%, #F7DFDF 100%);
+}
+
+.card-item-cat.background-4 {
+    background: linear-gradient(180deg, #FFFCF4 0%, #FCEFD4 100%);
+}
+
+.card-item-cat.background {
+    background: linear-gradient(180deg, #F8FAFC 0%, #E9EFF5 100%);
 }
