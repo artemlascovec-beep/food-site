@@ -37,3 +37,40 @@ a:hover {
     box-shadow: 0 1px 0 black;
     color: #666666;
 }
+
+/* Header Styles */
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-family: "Lobster", sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #FF7426;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-menu a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.social-img {
+    display: flex;
+    gap: 40px;
+}
+
+.social-img img {cursor: pointer;}
