@@ -358,3 +358,142 @@ hr {background: #666666; }
 .card-item-cat.background {
     background: linear-gradient(180deg, #F8FAFC 0%, #E9EFF5 100%);
 }
+
+/* Card-foods block styles */
+.cards-block {
+    margin-top: 182px;
+    margin-bottom: 143px;
+}
+
+.cards-block .card-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 96px;
+    gap: 24px;
+}
+
+.cards-block .card-title h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cards-block .card-title p {
+    max-width: 706px;
+    line-height: 1.8;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.cards .card-item {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F8FF 100%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+
+}
+
+.cards .card-item .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.cards .card-item .image-wrapper > img:first-child {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 30px;
+}
+
+.favorite-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite-btn .heart-img {
+    width: 24px;
+    height: 24px;
+}
+
+.favorite-btn:hover {
+    transform: scale(1.1);
+}
+
+.cards .card-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.cards .card-item .tags-block {
+    margin-bottom: 26px;
+    display: flex;
+    gap: 24px;
+}
+
+.cards .card-item .tags-block span {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#ads-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: none;
+    box-shadow: none;
+    padding: 0;
+
+    height: 100%;
+    cursor: pointer;
+}
+
+#ads-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cards .card-item .tags-block span:first-child::before {
+    content: '';
+    background: url('../img/icon/icon-timer-hero.png') no-repeat center / contain;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.cards .card-item .tags-block span:last-child::before {
+    content: '';
+    background: url('../img/icon/icon-fork-knife-hero.png') no-repeat center / contain;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+}
