@@ -704,7 +704,6 @@ hr {background: #666666; }
 }
 
 .recipes-block .cards .card-item .image-wrapper .favorite-btn {
-
     position: absolute;
     top: 15px;
     right: 15px;
@@ -718,4 +717,7 @@ hr {background: #666666; }
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* Временно */
+    display: none; 
 }
