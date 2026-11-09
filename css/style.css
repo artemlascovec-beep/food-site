@@ -553,3 +553,77 @@ hr {background: #666666; }
     bottom: 0;
     right: 40px;
 }
+
+/* Instagram Info Block Styles */
+.background {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F8FF 100%);
+    margin-bottom: 160px;
+}
+
+.instagram-block {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.instagram-block .title-insta-block {
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.instagram-block .title-insta-block h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.instagram-block .title-insta-block p {
+    color: #666666;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 840px;
+}
+
+.instagram-block .insta-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.instagram-block .insta-img img {
+    flex-grow: 1;
+}
+
+.instagram-block button {
+    margin-bottom: 81px;
+    color: #fff;
+    background: #000;
+    padding: 19px 32px;
+    border: none;
+    outline: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.instagram-block button:hover {
+    background: #1c1c1c;
+}
+
+.instagram-block button::after {
+    content: '';
+    background: url('../img/icon/instagram-icon-white.png') no-repeat center / contain;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 17px;
+    position: relative;
+    bottom: 1.5px;
+}
