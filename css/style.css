@@ -362,7 +362,7 @@ hr {background: #666666; }
 /* Card-foods block styles */
 .cards-block {
     margin-top: 182px;
-    margin-bottom: 143px;
+    margin-bottom: 240px;
 }
 
 .cards-block .card-title {
@@ -496,4 +496,60 @@ hr {background: #666666; }
     height: 24px;
     vertical-align: middle;
     display: inline-block;
+}
+
+/* Block Info Styles */
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.info-block .text-info {
+    max-width: 526px;
+}
+
+.info-block .text-info h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.info-block .text-info p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 2;
+    max-width: 508px;
+    margin-bottom: 72px;
+}
+
+.info-block .text-info button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px 53px;
+    background: #000;
+    border-radius: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.info-block .text-info button:hover {
+    background: #1c1c1c;
+}
+
+.info-block .img-info {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F8FF 100%);
+    border-radius: 30px;
+    height: 500px;
+    width: 650px;
+    position: relative;
+}
+
+.info-block .img-info img {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
 }
